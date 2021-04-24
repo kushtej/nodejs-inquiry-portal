@@ -27,5 +27,5 @@ The Node Server will run on **PORT:3000** and Websocket will run on **PORT:3001*
 **Step-04:**  **Now open your Web-Browser and paste the following url :**
 
 ```
-http://127.0.0.1:8080/
+http://127.0.0.1:3000/
 ```
