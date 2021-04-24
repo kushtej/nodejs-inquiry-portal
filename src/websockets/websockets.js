@@ -57,7 +57,7 @@ router.get("/agent", isLoggedIn, (req, res) => {
     userSession = req.session
     getVisitors(function(visitors) {
         if (visitors.length > 0) {
-            res.render('websockets/agent1', {
+            res.render('websockets/agent', {
                 username: sess.username,
                 acc_id: sess.acc_id,
                 visitors: visitors,
