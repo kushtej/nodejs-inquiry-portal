@@ -1,6 +1,6 @@
-drop database if exists nodejs_websockets;
-create database nodejs_websockets;
-use nodejs_websockets;
+drop database if exists inquiry_portal;
+create database inquiry_portal;
+use inquiry_portal;
 
 create table users
 	(
@@ -31,5 +31,3 @@ create table chats
 		foreign key(from_id) references users(acc_id) on delete cascade,
 		foreign key(to_id) references users(acc_id) on delete cascade
 	)
-
--- SELECT * FROM chats WHERE from_id = ? OR to_id= = ?

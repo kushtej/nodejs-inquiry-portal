@@ -5,7 +5,7 @@ const mysqlConnection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: 'root',
-    database: 'nodejs_websockets',
+    database: 'inquiry_portal',
     multipleStatements: true
 });
 
