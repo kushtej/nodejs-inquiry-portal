@@ -1,4 +1,6 @@
-# Inquiry Portal
+<!Doctype HTML>
+<h1 align="center">Inquiry Portal</h1>
+<h3 align="center">A chat application to interact with Client/Agent!</h3>
 
 A Realtime Inquiry portal built on **NodeJS**  with **MySQL** database backend to chat with clients/Agents  in realtime and ask any inquiry related to anything built using **websockets**.
 
