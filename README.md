@@ -4,7 +4,7 @@
 
 A Realtime Inquiry portal built on **NodeJS**  with **MySQL** database backend to chat with clients/Agents  in realtime and ask any inquiry related to anything built using **websockets** without using any **external libraries** for front end.
 
-<kbd>![preview](preview/preview.gif?raw=true " ")</kbd>
+<kbd>![preview](preview/preivew.gif?raw=true " ")</kbd>
 
 ### Agent Portal :
 <kbd>![preview](preview/agent.png?raw=true " ")</kbd>
