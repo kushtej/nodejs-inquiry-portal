@@ -28,8 +28,7 @@ function insertChat(who, visitor_id, text) {
         <li class="list-group-item list-group-item-dark mt-3">
             <p class="float-left">${visitor_id}</p>
             <p class="text-right ">${text}
-                <img src="${user.avatar}"
-                    class="rounded float-right" alt="user">
+                <img src="${bot.avatar}" class="rounded float-right" alt="bot">
             </p>
             <small class="float-left text-secondary">${date}</small><br>
         </li>
@@ -41,7 +40,8 @@ function insertChat(who, visitor_id, text) {
         <p class="float-right">Visitor</p>
 
             <p class="text-left">
-                <img src="${bot.avatar}" class="rounded float-left" alt="bot">
+                <img src="${user.avatar}"
+                    class="rounded float-left" alt="user">
                 ${text}
             </p>
             <small class="float-right text-secondary">${date}</small><br>
@@ -54,7 +54,7 @@ function insertChat(who, visitor_id, text) {
 function sendChat(visitor_id) {
     var text = $("#inputText").val().trim();
     if (text !== "") {
-        insertChat("bot","",text);
+        insertChat("user","",text);
         ws.send(JSON.stringify({
             visitor_id : visitor_id,
             message: text             

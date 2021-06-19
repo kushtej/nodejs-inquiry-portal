@@ -2,8 +2,16 @@
 <h1 align="center">Inquiry Portal</h1>
 <h3 align="center">A chat application to interact with Client/Agent!</h3>
 
-A Realtime Inquiry portal built on **NodeJS**  with **MySQL** database backend to chat with clients/Agents  in realtime and ask any inquiry related to anything built using **websockets**.
+A Realtime Inquiry portal built on **NodeJS**  with **MySQL** database backend to chat with clients/Agents  in realtime and ask any inquiry related to anything built using **websockets** without using any **external libraries** for front end.
 
+<kbd>![preview](preview/preview.gif?raw=true " ")</kbd>
+
+### Agent Portal :
+<kbd>![preview](preview/agent.png?raw=true " ")</kbd>
+
+### Visitor Portal : 
+
+<kbd>![preview](preview/visitor.png?raw=true " ")</kbd>
 
 ## Setting up the project :
 
