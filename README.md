@@ -4,7 +4,7 @@
 
 A Realtime Inquiry portal built on **NodeJS**  with **MySQL** database backend to chat with clients/Agents  in realtime and ask any inquiry related to anything built using **websockets** without using any **external libraries** for front end.
 
-<kbd>![preview](preview/preivew.gif?)</kbd>
+<kbd>![preview](preview/preivew.gif?raw=true)</kbd>
 
 ### Login System (Built not using any external libraries) :
 <kbd>![nodejsloginsystem](https://raw.githubusercontent.com/kushtej/my-miscellaneous-projects/master/nodejs-login-system/preview.gif?raw=true " ")</kbd>
